@@ -3,7 +3,7 @@ const app = express();
 const PORT = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello from Docker and GIT  - works (bash) - again & again!!!');
+  res.send('Hello from Docker and GIT  - works (bash) - again & again - done!!!');
 });
 
 app.listen(PORT, () => {
